@@ -1,0 +1,392 @@
+<!doctype html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>条件分岐 - 真偽値と比較演算子（2）</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="shop-wrapper">
+        <div class="container">
+            <!-- shop-list -->
+            <div class="shop-list">
+                <h3>Value Multi-Day Adventures</h3>
+                <div class="CarouselWrapper">
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-1.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Berlin to Venice</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$2310</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop -->
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-2.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Highlights of Italy</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$1520</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop -->
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-3.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Gorillas, Game Parks & Beaches</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$5495</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop -->
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-4.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Indian Getaway</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$730</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>  
+                    </div>
+                    <!-- shop -->
+                </div>
+            </div>
+            <!-- shop-list -->
+            <!-- shop-list -->
+            <div class="shop-list">
+                <h3>Adventure</h3>
+                <div class="CarouselWrapper">
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-5.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Columbia Gorge Meditative Waterfalls Scenic Tour</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$77</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop -->
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-6.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Private Beijing: Great Wall Experience</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$222</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop -->
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-7.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Private Cu Chi Tunnels Experience</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$124</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop -->
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-8.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Hidden Rice Terraces Trek</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$39</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop -->
+                </div>
+            </div>
+            <!-- shop-list -->
+            <!-- shop-list -->
+            <div class="shop-list">
+                <h3>Top Multi-Day Adventures</h3>
+                <div class="CarouselWrapper">
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-9.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Vietnam Discovery</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$1155</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div> 
+                    </div>
+                    <!-- shop -->
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-10.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Galapagos Experience</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$1205</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop -->
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-11.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Mexico Unplugged</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$1455</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop -->
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-12.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Explore Egypt</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$1434</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop -->
+                </div>
+            </div>
+            <!-- shop-list -->
+            <!-- shop-list -->
+            <div class="shop-list">
+                <h3>North America</h3>
+                <div class="CarouselWrapper">
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-13.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Downtown Los Angeles Taco Trek</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$55</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div> 
+                    </div>
+                    <!-- shop -->
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-14.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Flavors and Murals of the Mission</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$89</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop -->
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-15.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">DC Food & History Tour on H St.</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$79</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop -->
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-16.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Wynwood Art & Beer</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$65</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop -->
+                </div>
+            </div>
+            <!-- shop-list -->
+            <!-- shop-list -->
+            <div class="shop-list">
+                <h3>Europe</h3>
+                <div class="CarouselWrapper">
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-17.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">WMarket Food Tasting at Sant’Ambrogio</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$64</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop -->
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-18.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Barcelona Tapas Tour in El Raval</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$78</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop -->
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-19.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Historic &   Lisbon Walking Tour</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$39</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div> 
+                    </div>
+                    <!-- shop -->
+                    <!-- shop -->
+                    <div class="shop">
+                        <div class="shop-container">
+                            <div class="cover"><img src="image/StoreEvaluation-20.png"></div>
+                            <div class="caption">
+                                <p class="category">Lonely Planet Experience</p>
+                                <p class="cap">Experience Bohemian Paris</p>
+                            </div>
+                            <div class="foot">
+                                <div class="price"><p>Starting at<span>$71</span></p></div>
+                                <div class="btn"><a href="#">Book Now</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- shop -->
+                </div>
+            </div>
+            <!-- shop-list -->
+        </div>
+    </div>
+
+    <script>
+        const name = "Value Multi-Day Adventures";
+        if (name === "Value Multi-Day Adventures") {
+            console.log ("名前が一致しました");
+        }
+
+        const title = "Lonely Planet Experience";
+        if (title !== "Berlin to Venice") {
+            console.log ("タイトルが違います");
+        }
+
+        const city = "Starting at";
+        if (city === "Starting at") {
+            console.log ("都道県名が一致しました");
+        }
+
+        const price = "$2310";
+        if (price !== "$2318") {
+            console.log ("価格が違います");
+        }
+
+        const label = "Book Now";
+        if (label === "Book Now") {
+            console.log ("ラベルが一致しました。");
+        }
+
+        const country = "Lonely Planet Experience";
+        if (country !== "Highlights of Italy") {
+            console.log ("国名が違います");
+        }
+
+        const town ="Starting at";
+        if (town === "Starting at") {
+            console.log ("町の名前が一致しました");
+        }
+
+    </script>
+    
+
+</body>
+</html>
